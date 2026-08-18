@@ -1,1 +1,152 @@
-hi s
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Karle Infra | Corporate Area Photography Showcase</title>
+    <meta
+      name="description"
+      content="A curated editorial photography showcase for Karle Infra's corporate environments, architecture, and campus experience."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="wordmark" href="#top">Karle Infra</a>
+        <nav class="top-nav" aria-label="Primary">
+          <a href="#story">Story</a>
+          <a href="#gallery">Complete Gallery</a>
+          <a href="#delivery">Delivery</a>
+          <a href="#credits">Credits</a>
+        </nav>
+      </header>
+
+      <main id="top">
+        <section class="hero" id="hero">
+          <div class="hero-media">
+            <img id="hero-image" alt="Karle Infra corporate architecture" />
+            <div class="hero-overlay">
+              <p class="hero-overlay-label">Selected Architectural Frames</p>
+              <p class="hero-overlay-note">Karle Infra • Corporate Area • Bengaluru</p>
+            </div>
+          </div>
+          <div class="hero-copy">
+            <p class="eyebrow">Architectural Photography Presentation</p>
+            <h1>Corporate architecture, presented with clarity.</h1>
+            <p class="hero-text">
+              A clean presentation of the work across architecture, facade,
+              landscape, workplace, and campus life, with each photograph given
+              enough space to stand on its own.
+            </p>
+            <div class="hero-meta">
+              <span>Bengaluru</span>
+              <span>63 High-Resolution Frames</span>
+              <span>Private Editorial Presentation</span>
+            </div>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#story">Enter The Story</a>
+              <a class="button button-secondary" href="#gallery">View Full Collection</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="intro section-block">
+          <div>
+            <p class="section-kicker">Art Direction</p>
+            <h2>Minimal, clear, and focused on the photographs.</h2>
+          </div>
+          <p class="section-copy">
+            The page is kept intentionally simple so the photographs do the work.
+            The layout avoids heavy cropping, avoids decorative effects, and
+            gives more emphasis to composition, material, light, and detail.
+          </p>
+        </section>
+
+        <section class="section-block detail-band">
+          <div class="detail-rule"></div>
+          <div class="detail-items">
+            <p><span>Project</span> Karle Infra Corporate Area</p>
+            <p><span>Approach</span> Editorial architectural showcase</p>
+            <p><span>Selection</span> 63 high-quality edited images</p>
+          </div>
+        </section>
+
+        <section class="section-block" id="story">
+          <div class="section-heading">
+            <p class="section-kicker">Curated Story</p>
+            <h2>A simple sequence from architecture to the wider corporate environment.</h2>
+          </div>
+          <div id="story-sections"></div>
+        </section>
+
+        <section class="feature-panel">
+          <div class="feature-copy">
+            <p class="section-kicker">Presentation Note</p>
+            <h2>Each frame is allowed to hold its own space.</h2>
+            <p>
+              The images are shown with their original proportions so the
+              composition stays intact. The page moves at a calmer pace, with
+              one photograph after another rather than dense cropped layouts.
+            </p>
+          </div>
+          <div class="feature-media">
+            <img id="feature-image" alt="Karle Infra architecture detail" />
+          </div>
+        </section>
+
+        <section class="section-block gallery-section" id="gallery">
+          <div class="section-heading">
+            <p class="section-kicker">Complete Collection</p>
+            <h2>The full set follows in a quieter, more direct sequence.</h2>
+          </div>
+          <div class="gallery-grid" id="complete-gallery"></div>
+        </section>
+
+        <section class="section-block delivery-section" id="delivery">
+          <div class="delivery-card">
+            <p class="section-kicker">Private Delivery</p>
+            <h2>Final files can be shared discreetly without interrupting the viewing experience.</h2>
+            <p>
+              This page is designed as a presentation layer. Archive images,
+              print-ready exports, or internal delivery files can sit behind a
+              separate transfer link or private client folder once you are ready
+              to hand them over.
+            </p>
+            <a class="button button-primary" href="mailto:hello@example.com?subject=Karle%20Infra%20High-Resolution%20Delivery">
+              Request Final Files
+            </a>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer section-block" id="credits">
+        <div>
+          <p class="section-kicker">Photography Credit</p>
+          <h2>Photography and presentation by your studio.</h2>
+        </div>
+        <div class="footer-copy">
+          <p>
+            Replace this line with your preferred studio credit, contact number,
+            email address, or portfolio link before final client sharing.
+          </p>
+          <p>
+            This page is intentionally self-contained so it can be shared as a
+            simple web folder, hosted privately, or adapted into a broader
+            presentation workflow.
+          </p>
+        </div>
+      </footer>
+    </div>
+
+    <dialog class="lightbox" id="lightbox">
+      <button class="lightbox-close" id="lightbox-close" aria-label="Close image">
+        Close
+      </button>
+      <img id="lightbox-image" alt="" />
+      <p id="lightbox-caption"></p>
+    </dialog>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
